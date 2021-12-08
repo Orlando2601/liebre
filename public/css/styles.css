@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap'); /*Importar fuentes*/
+/* Normalizacion*/
+* {
+    margin: 0;  /*Definimos un margen de 0*/
+    padding: 0;/* Definimos un padding de 0 */
+    box-sizing: border-box; /*con esta propiedad definimos que el margin y el padding sean incluidos dentro del tamaño de las cajas*/
+
+} /* Propiedades de Cajas */
+
+html{
+    font-size: 62.5%;
+}/* Escalar tamaño de fuente de html para el uso de rem */
+:root{
+    --amarillo_logo: #fcd90dff;
+    --azul_logo:#03264c;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    --negro: black;
+    --blanco: #fff;
+    /*Tamaños de fuentes*/
+    --text-sm: 1.2em;
+    --text-md: 1.6em;
+    --text-lg: 1.8em;
+    --title-md: 2.4em;
+    /*Fuentes descargadas de web*/
+    --roboto-font: 'Roboto', sans-serif;
+
+}/* Declaración de variables */
+
+body{
+    background-color: skyblue;
+}
+
+header{
+    border: solid 2px red;
+    background-color: var(--amarillo_logo);
+}
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+}
+.logo{
+    width: 50%;
+    align-self:flex-start;
+}
+.buscador{
+    display: flex;
+}
+.barra-busqueda{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    width: 50%;
+}
+.barra-busqueda p{
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    display: inline;
+}
+.icono-lupa{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    display: inline;
+}
+.box-txt-sin-tarjeta{
+    display: flex;
+}
+.icono-mano{
+    font-size: var(--text-md);
+    color: var(--negro);
+    
+}
+.txt-sin-tarjeta{
+    font-size: var(--text-md);
+    color: var(--negro);
+    justify-self:center;
+}
+
+.medium-header{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+.medium-header ul{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+}
+.medium-header li{
+    list-style: none;
+    font-family: var(--roboto-font);
+    font-size: var(--text-md);
+    font-style: normal;  
+     
+}
+.medium-header a{
+    color: black;
+    text-decoration: none;
+}
+.btn-menu-hamburguesa{
+display: flex;
+justify-content:center;
+
+}
+.btn-menu-hamburguesa i{
+    background-color: var(--celeste);
+    padding: 15px;
+    font-size: 20px;
+    color: var(--blanco);
+    border-radius: 5px;
+}
