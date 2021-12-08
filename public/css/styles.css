@@ -1,36 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap'); /*Importar fuentes*/
-/* Normalizacion*/
-* {
-    margin: 0;  /*Definimos un margen de 0*/
-    padding: 0;/* Definimos un padding de 0 */
-    box-sizing: border-box; /*con esta propiedad definimos que el margin y el padding sean incluidos dentro del tamaño de las cajas*/
+@import url(/css/mobile.css);
+@import url(/css/normalizacion.css);
+@import url(/css/tablets.css);
+@import url(/css/desktop.css);
 
-} /* Propiedades de Cajas */
 
-html{
-    font-size: 62.5%;
-}/* Escalar tamaño de fuente de html para el uso de rem */
-:root{
-    --amarillo_logo: #fcd90dff;
-    --azul_logo:#03264c;
-    --celeste: #1259c3;
-    --gris-oscuro: #666;
-    --gris-claro: #ebebeb;
-    --verde: #39b54a;
-    --negro: black;
-    --blanco: #fff;
-    /*Tamaños de fuentes*/
-    --text-sm: 1.2em;
-    --text-md: 1.6em;
-    --text-lg: 1.8em;
-    --title-md: 2.4em;
-    /*Fuentes descargadas de web*/
-    --roboto-font: 'Roboto', sans-serif;
 
-}/* Declaración de variables */
+
 
 body{
-    background-color: skyblue;
+    background-color:var(--blanco);
 }
 
 header{
@@ -38,6 +17,7 @@ header{
     background-color: var(--amarillo_logo);
 }
 .top-header{
+    border: solid 2px red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,10 +26,12 @@ header{
     gap:10px
 }
 .logo{
+    border: solid 2px red;
     width: 50%;
     align-self:flex-start;
 }
 .buscador{
+    border: solid 2px red;
     display: flex;
 }
 .barra-busqueda{
@@ -57,8 +39,7 @@ header{
     background-color: var(--blanco);
     padding: 2px;
     border-radius: 5px;
-    width: 50%;
-}
+    }
 .barra-busqueda p{
     font-size: var(--text-md);
     color: var(--gris-oscuro);
@@ -74,6 +55,9 @@ header{
     display: inline;
 }
 .box-txt-sin-tarjeta{
+    justify-content:center;
+    border: solid 2px red;
+    padding: 20px;
     display: flex;
 }
 .icono-mano{
@@ -85,6 +69,7 @@ header{
     font-size: var(--text-md);
     color: var(--negro);
     justify-self:center;
+    
 }
 
 .medium-header{
@@ -99,6 +84,7 @@ header{
 
 
 .medium-header ul{
+    flex-wrap: wrap;
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
@@ -107,7 +93,7 @@ header{
 .medium-header li{
     list-style: none;
     font-family: var(--roboto-font);
-    font-size: var(--text-md);
+    font-size: var(--text-sm);
     font-style: normal;  
      
 }
@@ -126,4 +112,52 @@ justify-content:center;
     font-size: 20px;
     color: var(--blanco);
     border-radius: 5px;
+}
+.banner img{
+    width: 100%;
+}
+main{
+   margin: 0 auto;
+    width: 90%;
+}
+
+main h2{
+    margin-top: 10px;
+    font-family: var(--roboto-font);
+    font-size: var(--title-md);
+    border: solid 2px red;  
+    
+}
+.basadoultimavisita{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;  
+}
+.ultimavisita{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid 2px red;  
+}
+section img{
+    width: 100%;
+    border: solid 2px red;  
+}
+section div{
+    border: solid 2px red;
+    background-color: var(--blanco);
+}
+
+@media (max-width: 360px){
+    .medium-header{
+       display: none;
+   }
+
+}/*Consicionales segun tamaño con resoluciones max de 361*/
+@media (min-width: 769px){
+    .btn-menu-hamburguesa{
+        display: none;
+    }/*Condicional de sombra solo para escritorios*/
+
+
 }
