@@ -1,0 +1,97 @@
+@media (max-width: 768px) and (min-width: 361px){
+
+    .btn-menu-hamburguesa{
+        display: none;
+    } /* Ocultar menu hamburguesa */
+
+    .top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    } /* formato contenedor header superior */
+
+    .logo{
+    width: 33%;    
+    }/* Tamaño contenedor logo */
+
+    .buscador{
+    display: flex;
+    width: 33%;
+    align-items: center;
+    }
+.barra-busqueda{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    }
+.barra-busqueda p{
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    white-space: nowrap;
+    font-family: var(--roboto-font);
+   
+    
+}
+.icono-lupa{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    display: inline;
+} 
+
+.txt-sin-tarjeta{
+    font-size: var(--text-sm);
+    color: var(--negro);
+    overflow: hidden;
+    width: 33%;
+  
+   
+   
+} 
+
+.txt-sin-tarjeta p{
+    font-size: var(--text-sm);
+    font-family: var(--roboto-font);
+    white-space: nowrap;
+}
+    .medium-header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    } 
+    .medium-header ul{
+        flex-wrap: wrap;
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 20px;
+    }
+    .medium-header li{
+        list-style: none;
+        font-family: var(--roboto-font);
+        font-size: var(--text-sm);
+        font-style: normal;  
+        flex-wrap: wrap;
+         
+    }
+    article{
+        width: 50%;
+    }
+
+}/* propiedades tablet*/
+
+
+
+
+
+

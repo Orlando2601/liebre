@@ -1,0 +1,68 @@
+/* RESOLUCION MOBILE 360PX MAXIMO */
+@media (max-width: 360px){
+    .medium-header{
+       display: none;
+   }
+   .logo{
+    width: 50%;
+    align-self:flex-start;
+   }
+   
+   .top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+} 
+.buscador{
+    display: flex;
+    width: 50%;
+    
+}
+.barra-busqueda{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    }
+.barra-busqueda p{
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    white-space: nowrap;
+    font-family: var(--roboto-font);
+    
+}
+.icono-lupa{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    display: inline;
+}
+
+
+.txt-sin-tarjeta p{
+    font-size: var(--text-sm);
+    font-family: var(--roboto-font);
+    color: var(--negro);
+}
+
+.btn-menu-hamburguesa{
+    display: flex;
+    justify-content:center;
+    
+    }
+article{
+    width: 100%;
+
+}
+
+}/* propiedades mobile */
+
+
