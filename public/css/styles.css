@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap'); /*Importar fuentes*/
-@import url(/css/mobile.css);
-@import url(/css/normalizacion.css);
-@import url(/css/tablets.css);
-@import url(/css/desktop.css);
-
-
-
+@import '/css/mobile.css';
+@import '/css/normalizacion.css';
+@import '/css/tablets.css';
+@import '/css/desktop.css';
+@import '/css/desk.css';
 
 
 body{
-    background-color:var(--blanco);
+    background-color:var(--gris-claro);
 }
-
+/* PROPIEDADES HEADER */
 header{
     border: solid 2px red;
     background-color: var(--amarillo_logo);
 }
+
 .top-header{
     border: solid 2px red;
     display: flex;
@@ -25,6 +24,7 @@ header{
     flex-wrap: wrap;
     gap:10px
 }
+
 .logo{
     border: solid 2px red;
     width: 50%;
@@ -116,48 +116,51 @@ justify-content:center;
 .banner img{
     width: 100%;
 }
+
+/* PROPIEDADES MAIN */
+
 main{
    margin: 0 auto;
     width: 90%;
 }
 
 main h2{
-    margin-top: 10px;
+    margin:10px 0px;
     font-family: var(--roboto-font);
-    font-size: var(--title-md);
-    border: solid 2px red;  
-    
-}
-.basadoultimavisita{
-    display: flex;
-    flex-direction: column;
-    border: solid 2px red;  
-}
-.ultimavisita{
+    font-size: var(--title-md);   
+}/* Propiedades de los h2 del main, basado en ultima visita y ofertas */
+
+.sección{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    border: solid 2px red;  
+
 }
-section img{
+
+
+article img{
     width: 100%;
-    border: solid 2px red;  
+    
+    
 }
-section div{
-    border: solid 2px red;
+article div{
+    
     background-color: var(--blanco);
 }
-
-@media (max-width: 360px){
-    .medium-header{
-       display: none;
-   }
-
-}/*Consicionales segun tamaño con resoluciones max de 361*/
-@media (min-width: 769px){
+@media (min-width: 768px){
     .btn-menu-hamburguesa{
         display: none;
     }/*Condicional de sombra solo para escritorios*/
+    article{
+        width: 25%;
+    }
 
 
 }
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+@media (min-width: 768px){
+    .btn-menu-hamburguesa{
+        display: none;
+    }/*Condicional de sombra solo para escritorios*/
+    article{
+        width: 25%;
+    }
+
+
+}
