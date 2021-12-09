@@ -38,57 +38,7 @@ body{
 }
 /* PROPIEDADES HEADER */
 header{
-    border: solid 2px red;
     background-color: var(--amarillo_logo);
-}
-
-/* .top-header{
-    border: solid 2px red;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:10px
-} */
-
-/* .logo{
-    border: solid 2px red;
-    width: 50%;
-    align-self:flex-start;
-} */
-/* .buscador{
-    border: solid 2px red;
-    display: flex;
-    
-}
-.barra-busqueda{
-    border: solid 1px var(--negro);
-    background-color: var(--blanco);
-    padding: 2px;
-    border-radius: 5px;
-
-    }
-.barra-busqueda p{
-    font-size: var(--text-md);
-    color: var(--gris-oscuro);
-    white-space: nowrap;
-    overflow: hidden;
-    
-}
-.icono-lupa{
-    border: solid 1px var(--negro);
-    background-color: var(--blanco);
-    padding: 2px;
-    border-radius: 5px;
-    font-size: var(--text-md);
-    color: var(--gris-oscuro);
-    display: inline;
-} */
-
-.txt-sin-tarjeta{
-    font-size: var(--text-md);
-    color: var(--negro);
-   
 }
 
 .medium-header{
@@ -124,7 +74,7 @@ justify-content:center;
 }
 .btn-menu-hamburguesa i{
     background-color: var(--celeste);
-    padding: 15px;
+    padding:7px;
     font-size: 20px;
     color: var(--blanco);
     border-radius: 5px;
@@ -177,15 +127,14 @@ article div{
    }
    
    .top-header{
-    border: solid 2px red;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-evenly;
    
 } 
 .buscador{
-    border: solid 2px red;
     display: flex;
     width: 50%;
     
@@ -218,25 +167,77 @@ article{
 
 }
 
-}
+}/* propiedades mobile */
+
 
 @media (min-width: 769px){
     
     .btn-menu-hamburguesa{
         display: none;
     } 
-/*     .top-header{
-        justify-content: space-between;
-    } */
+
     article{
         width: 25%;
     }
-/*     .logo{
-        width: 30%;
-    } */
+
+    .top-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    } 
+    
+    .logo{
+        width: 33%;
+        align-self:flex-start;
+    }
+    .buscador{
+        display: flex;
+        width: 25%;
+        
+        
+    }
+    .barra-busqueda{
+        border: solid 1px var(--negro);
+        background-color: var(--blanco);
+        padding: 2px;
+        border-radius: 5px;
+        overflow: hidden;
+    
+        }
+    .barra-busqueda p{
+        font-size: var(--text-md);
+        color: var(--gris-oscuro);
+        white-space: nowrap;
+       
+        
+    }
+    .icono-lupa{
+        border: solid 1px var(--negro);
+        background-color: var(--blanco);
+        padding: 2px;
+        border-radius: 5px;
+        font-size: var(--text-md);
+        color: var(--gris-oscuro);
+        display: inline;
+    } 
+    
+    .txt-sin-tarjeta{
+        font-size: var(--text-sm);
+        color: var(--negro);
+        overflow: hidden;
+       
+       
+    } 
+    
+    .txt-sin-tarjeta p{
+        
+        white-space: nowrap;
+    }
 
 
-}
+}/* propiedades desktop */
 
 
 
@@ -244,14 +245,65 @@ article{
     article{
         width: 50%;
     }
+ .top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+} 
+
+.logo{
+    width: 33%;
+    align-self:flex-start;
+}
+.buscador{
+    display: flex;
+    width: 25%;
+    
     
 }
+.barra-busqueda{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
 
-/* @media (max-width: 768px){
-    .top-header{
-        justify-content: center;
     }
-} */
+.barra-busqueda p{
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    white-space: nowrap;
+   
+    
+}
+.icono-lupa{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    display: inline;
+} 
+
+.txt-sin-tarjeta{
+    font-size: var(--text-sm);
+    color: var(--negro);
+    overflow: hidden;
+   
+   
+} 
+
+.txt-sin-tarjeta p{
+    
+    white-space: nowrap;
+}
+
+}/* propiedades tablet*/
+
+
 
 
 
