@@ -46,7 +46,7 @@ header{
     border: solid 2px red;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-wrap: wrap;
     gap:10px
@@ -177,9 +177,14 @@ article div{
     .btn-menu-hamburguesa{
         display: none;
     } 
-
+    .top-header{
+        justify-content: space-between;
+    }
     article{
         width: 25%;
+    }
+    .logo{
+        width: 30%;
     }
 
 
@@ -196,6 +201,12 @@ article{
 @media (max-width: 768px) and (min-width: 361px){
     article{
         width: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    .top-header{
+        justify-content: center;
     }
 }
 
