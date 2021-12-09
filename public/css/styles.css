@@ -42,35 +42,38 @@ header{
     background-color: var(--amarillo_logo);
 }
 
-.top-header{
+/* .top-header{
     border: solid 2px red;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: center;
     flex-wrap: wrap;
     gap:10px
-}
+} */
 
-.logo{
+/* .logo{
     border: solid 2px red;
     width: 50%;
     align-self:flex-start;
-}
-.buscador{
+} */
+/* .buscador{
     border: solid 2px red;
     display: flex;
+    
 }
 .barra-busqueda{
     border: solid 1px var(--negro);
     background-color: var(--blanco);
     padding: 2px;
     border-radius: 5px;
+
     }
 .barra-busqueda p{
     font-size: var(--text-md);
     color: var(--gris-oscuro);
-    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    
 }
 .icono-lupa{
     border: solid 1px var(--negro);
@@ -80,27 +83,15 @@ header{
     font-size: var(--text-md);
     color: var(--gris-oscuro);
     display: inline;
-}
-.box-txt-sin-tarjeta{
-    justify-content:center;
-    border: solid 2px red;
-    padding: 20px;
-    display: flex;
-}
-.icono-mano{
-    font-size: var(--text-md);
-    color: var(--negro);
-    
-}
+} */
+
 .txt-sin-tarjeta{
     font-size: var(--text-md);
     color: var(--negro);
-    justify-self:center;
-    
+   
 }
 
 .medium-header{
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -172,43 +163,95 @@ article div{
     background-color: var(--blanco);
 }
 
-@media (min-width: 769px){
-    
-    .btn-menu-hamburguesa{
-        display: none;
-    } 
-    .top-header{
-        justify-content: space-between;
-    }
-    article{
-        width: 25%;
-    }
-    .logo{
-        width: 30%;
-    }
 
-
-}
+/* RESOLUCION MOBILE 360PX MAXIMO */
 
 @media (max-width: 360px){
     .medium-header{
        display: none;
    }
+   .logo{
+    border: solid 2px red;
+    width: 50%;
+    align-self:flex-start;
+   }
+   
+   .top-header{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+   
+} 
+.buscador{
+    border: solid 2px red;
+    display: flex;
+    width: 50%;
+    
+}
+.barra-busqueda{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    }
+.barra-busqueda p{
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    white-space: nowrap;
+    
+}
+.icono-lupa{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    display: inline;
+}
 article{
     width: 100%;
-}}
+
+}
+
+}
+
+@media (min-width: 769px){
+    
+    .btn-menu-hamburguesa{
+        display: none;
+    } 
+/*     .top-header{
+        justify-content: space-between;
+    } */
+    article{
+        width: 25%;
+    }
+/*     .logo{
+        width: 30%;
+    } */
+
+
+}
+
+
 
 @media (max-width: 768px) and (min-width: 361px){
     article{
         width: 50%;
     }
+    
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .top-header{
         justify-content: center;
     }
-}
+} */
 
 
 
