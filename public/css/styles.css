@@ -5,7 +5,6 @@
     margin: 0;  /*Definimos un margen de 0*/
     padding: 0;/* Definimos un padding de 0 */
     box-sizing: border-box; /*con esta propiedad definimos que el margin y el padding sean incluidos dentro del tamaño de las cajas*/
-
 } /* Propiedades de Cajas */
 
 html{
@@ -59,8 +58,9 @@ header{
 .medium-header li{
     list-style: none;
     font-family: var(--roboto-font);
-    font-size: var(--text-sm);
+    font-size: var(--text-smgit);
     font-style: normal;  
+    flex-wrap: wrap;
      
 }
 .medium-header a{
@@ -148,7 +148,7 @@ article div{
 
     }
 .barra-busqueda p{
-    font-size: var(--text-md);
+    font-size: var(--text-sm);
     color: var(--gris-oscuro);
     white-space: nowrap;
     
@@ -184,12 +184,12 @@ article{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         
     } 
     
     .logo{
-        width: 33%;
+        width: 50%;
         align-self:flex-start;
     }
     .buscador{
@@ -207,7 +207,7 @@ article{
     
         }
     .barra-busqueda p{
-        font-size: var(--text-md);
+        font-size: var(--text-sm);
         color: var(--gris-oscuro);
         white-space: nowrap;
        
@@ -232,8 +232,9 @@ article{
     } 
     
     .txt-sin-tarjeta p{
-        
+        font-size: var(--text-sm);
         white-space: nowrap;
+        font-family: var(--roboto-font);
     }
 
 
@@ -242,6 +243,10 @@ article{
 
 
 @media (max-width: 768px) and (min-width: 361px){
+
+    .btn-menu-hamburguesa{
+        display: none;
+    } 
     article{
         width: 50%;
     }
@@ -249,12 +254,12 @@ article{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
 } 
 
 .logo{
-    width: 33%;
+    width: 50%;
     align-self:flex-start;
 }
 .buscador{
@@ -272,9 +277,10 @@ article{
 
     }
 .barra-busqueda p{
-    font-size: var(--text-md);
+    font-size: var(--text-sm);
     color: var(--gris-oscuro);
     white-space: nowrap;
+    font-family: var(--roboto-font);
    
     
 }
@@ -292,12 +298,14 @@ article{
     font-size: var(--text-sm);
     color: var(--negro);
     overflow: hidden;
+  
    
    
 } 
 
 .txt-sin-tarjeta p{
-    
+    font-size: var(--text-sm);
+    font-family: var(--roboto-font);
     white-space: nowrap;
 }
 
