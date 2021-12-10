@@ -28,3 +28,38 @@
     font-family: var(--roboto-font);
     font-size: var(--text-sm);
 }
+
+
+/* FOOTER */
+
+.pagos h2{
+    color: var(--gris-oscuro);
+    font-family: var(--roboto-font);
+    font-size: var(--title-md);
+    }/*Propiedades de los h2 dentro de la clase pagos*/
+    
+.envios h2{
+    color: var(--gris-oscuro);
+    font-family: var(--roboto-font);
+    font-size: var(--title-md);
+}/*Propiedades de los h2 dentro de la clase envios*/
+    
+.seguridad h2{
+    color: var(--gris-oscuro);
+    font-family: var(--roboto-font);
+    font-size: var(--title-md);
+}/*Propiedades del h2 dentro de la clase seguridad */
+
+footer section p{
+    color: var(--gris-oscuro);
+    font-family: var(--roboto-font);
+    font-size: var(--text-md);
+    }/*Propiedades del texto p dentro de cada sección del footer*/
+
+footer .derechos{
+        font-family: var(--roboto-font);
+        font-size: var(--text-md);
+        color: var(--negro);
+
+}/*Propiedades del texto p*/
+

@@ -63,4 +63,36 @@ article div{
 
 
 
+footer{
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    box-sizing: border-box;
+}/*Propiedades del contenedor footer*/
+
+
+footer section p{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+
+    }/*Propiedades del texto p dentro de cada sección del footer*/
+
+footer .derechos{
+    padding: 10px;
+}/*Propiedades del texto p*/
+
+.pagos i{
+    font-size: 50px;
+    color:var(--celeste);
+}
+.envios i{
+    font-size: 60px;
+    color:var(--celeste);
+}
+
+.seguridad i{
+    font-size: 60px;
+    color:var(--celeste);
+}
 
