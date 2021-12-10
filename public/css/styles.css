@@ -15,71 +15,96 @@ header{
     background-color: var(--amarillo_logo);
 }
 
-
-
 .btn-menu-hamburguesa i{
     background-color: var(--celeste);
     padding:7px;
     font-size: 20px;
     color: var(--blanco);
     border-radius: 5px;
-}
+}/* propiedades icono hamburguesa menu */
 .banner img{
     width: 100%;
-}
+}/* propiedades banner */
 
 /* PROPIEDADES MAIN */
 
 main{
    margin: 0 auto;
     width: 90%;
-}
+}/* centrado del contenido del main */
 
 main h2{
-    margin:10px 0px;
-    font-family: var(--roboto-font);
-    font-size: var(--title-md);   
+    margin:10px 0px;  
 }/* Propiedades de los h2 del main, basado en ultima visita y ofertas */
 
 .sección{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
+}/* flexbox para las secciones de basado en ultima visita y ofertas */
+
+article{
+    padding: 10px;
+    margin:5px;
 }
-
-
 article img{
-    width: 100%;
-    
-    
-}
+    width: 100%; 
+    height:auto   
+}/* imagen ocupando 100% de la caja */
+
 article div{
-    
     background-color: var(--blanco);
-}
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+    gap: 2px;
+    
+}/* propiedades caja de descripcion de articulo */
 
+.sección article div i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    background-color:var(--blanco);
+    border-radius: 50%;
+    position: absolute ;
+    right: 20px ;
+    top: -15px ;
+}/* propiedades icono camión */
 
-
-
-
+/* PROPIEDADES FOOTER  */
 
 footer{
     padding: 10px;
     text-align: center;
     width: 90%;
-    box-sizing: border-box;
-}/*Propiedades del contenedor footer*/
-
-
-footer section p{
-    display: block;
-    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
+    justify-content: center;
+}/*Propiedades del contenedor footer*/
+footer div{
+    width: 33%;
+    flex-wrap: wrap;
+}
+
+footer div p{
+    display: block;
+
 
     }/*Propiedades del texto p dentro de cada sección del footer*/
 
 footer .derechos{
     padding: 10px;
+    
 }/*Propiedades del texto p*/
 
 .pagos i{

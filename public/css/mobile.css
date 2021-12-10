@@ -2,8 +2,7 @@
 @media (max-width: 360px){
     .medium-header{
        display: none;
-       padding-bottom: 5px;
-    }
+    }/*  */
     .logo{
     width: 50%;
     align-self:flex-start;
@@ -16,6 +15,9 @@
     justify-content: space-evenly;
    
     } 
+    .txt-sin-tarjeta{
+        overflow: hidden;
+    }
     .buscador{
     display: flex;
     width: 50%;

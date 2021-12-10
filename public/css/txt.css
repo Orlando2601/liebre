@@ -1,33 +1,59 @@
-
+/* PROPIEDADES HEADER */
 .barra-busqueda p{
     font-size: var(--text-md);
     color: var(--gris-oscuro);
     font-family: var(--roboto-font);
     
-}
+}/* texto barra de busqueda */
 .icono-lupa{
     font-size: var(--text-md);
     color: var(--gris-oscuro);
  
-}
+}/* propiedades icono lupa */
 .txt-sin-tarjeta p{
     font-size: var(--text-sm);
     font-family: var(--roboto-font);
     color: var(--negro);
     white-space: nowrap;
-}
+}/* propiedades txt sin tarjetas de credito */
 .medium-header li{
     list-style: none;
     font-style: normal;  
     flex-wrap: wrap;
          
-}
+}/* propiedades de listas */
 .medium-header a{
     color: black;
     text-decoration: none;
     font-family: var(--roboto-font);
     font-size: var(--text-sm);
-}
+}/* propiedades de texto de listas */
+
+/* PROPIEDADES MAIN */
+main h2{
+
+    font-family: var(--roboto-font);
+    font-size: var(--title-md);  
+    color: var(--gris-oscuro); 
+}/* Propiedades de los h2 del main, basado en ultima visita y ofertas */
+
+.sección article #precios{
+    font-family: var(--roboto-font);
+    font-size:var(--text-lg) ;
+}/* Propiedades del texto precios en cada articulo dentro de la seccion basado en ultima visita*/
+.sección article #descuentos{
+    font-family: var(--roboto-font);
+    font-size:var(--text-md) ;
+    color: var(--verde);
+    
+}/*Propiedades del texto descuento en cada articulo de la seccion basado en ultima visita*/
+
+.sección article #descripciones{
+    font-family: var(--roboto-font);
+    font-size:var(--text-md) ;
+    color: var(--gris-oscuro);
+    
+}/* Propiedades del texto descripción en cada articulo dentro de la sección basado en ultima visita*/
 
 
 /* FOOTER */
@@ -50,13 +76,13 @@
     font-size: var(--title-md);
 }/*Propiedades del h2 dentro de la clase seguridad */
 
-footer section p{
+footer div p{
     color: var(--gris-oscuro);
     font-family: var(--roboto-font);
     font-size: var(--text-md);
     }/*Propiedades del texto p dentro de cada sección del footer*/
 
-footer .derechos{
+footer div .derechos{
         font-family: var(--roboto-font);
         font-size: var(--text-md);
         color: var(--negro);
