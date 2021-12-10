@@ -35,43 +35,21 @@
     
         }
     .barra-busqueda p{
-        font-size: var(--text-md);
-        color: var(--gris-oscuro);
         white-space: nowrap;
-        font-family: var(--roboto-font);
-       
-        
     }
     .icono-lupa{
         border: solid 1px var(--negro);
         background-color: var(--blanco);
         padding: 2px;
         border-radius: 5px;
-        font-size: var(--text-md);
-        color: var(--gris-oscuro);
         display: inline;
     } 
-    
-    .txt-sin-tarjeta{
-        font-size: var(--text-sm);
-        color: var(--negro);
-        overflow: hidden;
-
-       
-       
-    } 
-    
-    .txt-sin-tarjeta p{
-        font-size: var(--text-sm);
-        white-space: nowrap;
-        font-family: var(--roboto-font);
-    }
-
     .medium-header{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 5px;
     
     } 
     .medium-header ul{
@@ -81,14 +59,5 @@
         margin-right: 10px;
         gap: 20px;
     }
-    .medium-header li{
-        list-style: none;
-        font-family: var(--roboto-font);
-        font-size: var(--text-sm);
-        font-style: normal;  
-        flex-wrap: wrap;
-         
-    }
-
 }/* propiedades desktop */
 

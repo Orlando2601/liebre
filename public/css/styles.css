@@ -3,6 +3,7 @@
 @import url(/css/mobile.css);
 @import url(/css/tablet.css);
 @import url(/css/desktop.css);
+@import url(/css/txt.css);
 
 
 
@@ -14,10 +15,7 @@ header{
     background-color: var(--amarillo_logo);
 }
 
-.medium-header a{
-    color: black;
-    text-decoration: none;
-}
+
 
 .btn-menu-hamburguesa i{
     background-color: var(--celeste);

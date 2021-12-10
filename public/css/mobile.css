@@ -2,26 +2,25 @@
 @media (max-width: 360px){
     .medium-header{
        display: none;
-   }
-   .logo{
+       padding-bottom: 5px;
+    }
+    .logo{
     width: 50%;
     align-self:flex-start;
-   }
-   
-   .top-header{
+    }
+    .top-header{
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
    
-} 
-.buscador{
+    } 
+    .buscador{
     display: flex;
     width: 50%;
-    
-}
-.barra-busqueda{
+    }
+    .barra-busqueda{
     border: solid 1px var(--negro);
     background-color: var(--blanco);
     padding: 2px;
@@ -29,39 +28,23 @@
     overflow: hidden;
 
     }
-.barra-busqueda p{
-    font-size: var(--text-md);
-    color: var(--gris-oscuro);
+    .barra-busqueda p{
     white-space: nowrap;
-    font-family: var(--roboto-font);
-    
-}
-.icono-lupa{
+    }
+    .icono-lupa{
     border: solid 1px var(--negro);
     background-color: var(--blanco);
     padding: 2px;
     border-radius: 5px;
-    font-size: var(--text-md);
-    color: var(--gris-oscuro);
     display: inline;
-}
-
-
-.txt-sin-tarjeta p{
-    font-size: var(--text-sm);
-    font-family: var(--roboto-font);
-    color: var(--negro);
-}
-
-.btn-menu-hamburguesa{
+    }
+    .btn-menu-hamburguesa{
     display: flex;
     justify-content:center;
-    
     }
-article{
+    article{
     width: 100%;
-
-}
+    }
 
 }/* propiedades mobile */
 

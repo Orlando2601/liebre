@@ -1,0 +1,30 @@
+
+.barra-busqueda p{
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+    font-family: var(--roboto-font);
+    
+}
+.icono-lupa{
+    font-size: var(--text-md);
+    color: var(--gris-oscuro);
+ 
+}
+.txt-sin-tarjeta p{
+    font-size: var(--text-sm);
+    font-family: var(--roboto-font);
+    color: var(--negro);
+    white-space: nowrap;
+}
+.medium-header li{
+    list-style: none;
+    font-style: normal;  
+    flex-wrap: wrap;
+         
+}
+.medium-header a{
+    color: black;
+    text-decoration: none;
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+}
