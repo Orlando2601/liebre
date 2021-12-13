@@ -64,3 +64,10 @@
     
 }/* propiedades desktop */
 
+@media (min-width: 1200px){
+body{
+margin:auto;
+max-width: 1200px;
+box-shadow: 0px 0px 10px rgb(100, 100, 100); ;
+}
+}

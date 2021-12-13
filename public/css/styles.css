@@ -13,6 +13,7 @@ body{
 /* PROPIEDADES HEADER */
 header{
     background-color: var(--amarillo_logo);
+    padding: 10px;
 }
 
 .btn-menu-hamburguesa i{
