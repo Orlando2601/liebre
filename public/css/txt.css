@@ -89,3 +89,49 @@ footer div .derechos{
 
 }/*Propiedades del texto p*/
 
+/* HOJA LOGGIN */
+.formulario .itemform{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro);
+}
+.formulario h3{
+    font-family: var(--roboto-font);
+    font-size: var(--text-lg);
+    color: var(--negro); 
+}
+
+.formulario .foto-itemform{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro);
+}
+.formulario .passw{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro);
+}
+.formulario .btn input{
+    font-family: var(--roboto-font);
+    font-size: var(--text-lg);
+    color: var(--negro);
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    
+}
+
+.formulario .passw ::placeholder{
+    font-family: var(--roboto-font);
+    font-size: 12px;
+}
+
+.formulario-log .btn-log input{
+    font-family: var(--roboto-font);
+    font-size: var(--text-lg);
+    color: var(--negro);
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    
+}

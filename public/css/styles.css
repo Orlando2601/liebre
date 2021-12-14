@@ -122,3 +122,88 @@ footer .derechos{
     color:var(--celeste);
 }
 
+
+/* HOJA REGISTER */
+.formulario{
+
+padding: 5px;
+}
+
+.formulario .itemform{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.formulario .itemform label{
+    padding:5px;
+    
+}
+
+.formulario .perfil-itemform{
+    display: flex;
+    flex-wrap: wrap;
+}
+.formulario .categoria-itemform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.formulario .itemform input{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.formulario .foto-itemform{
+    overflow: hidden;
+    padding: 5px;
+    
+
+}
+.formulario .passw{
+    margin: 10px 0px;
+}
+.formulario .passw input{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.formulario .btn{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+
+.formulario-log {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario-log .btn-log{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.formulario-log .itemform-log input{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 70vw;
+}

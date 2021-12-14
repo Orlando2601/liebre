@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /><!-- Link para obtener iconos de la pagina enlazada, para agregar se debe ver la sintaxis que muetsra la pagina -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Register</title>
+</head>
+<body>
+        <header>
+            <div class="top-header">
+                <div class="logo">
+                    <img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+                </div>
+                <div class="buscador">
+                    <div class="barra-busqueda">
+                        <p>Buscar productos marcas y más</p>        
+                    </div><!-- barrabusqueda -->
+                    <div class="icono-lupa">
+                        <i class="fas fa-search"></i>
+                    </div><!-- icono lupa -->  
+                </div>       
+                <div class="txt-sin-tarjeta">
+                    <p><i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de credito</p>
+                </div><!-- texto sin tarjeta de credito -->
+            </div>
+            
+    
+            <div class="medium-header">
+                <div class="listadoleft">
+                    <nav>
+                        <ul class="Primerlistadonav">
+                            <li><a href="#">Ofertas</a></li>
+                            <li><a href="#">Tiendas Oficiales</a></li>
+                            <li><a href="#">Vender</a></li>
+                            <li><a href="#">Ayuda</a></li>
+                        </ul><!-- Primer listado -->
+                    </nav>
+                </div>
+    
+                <div class="listadoright">
+                    <nav>
+                        <ul class="Segundolistadonav">
+                            <li><a href="/register">Crea tu cuenta  <i class="far fa-id-card"></i></a></li>
+                            <li><a href="/login">Ingresá  <i class="fas fa-sign-in-alt"></i></a></li>
+                            <li><a href="#">Mis compras  <i class="fas fa-shopping-basket"></i></a></li>
+        
+                        </ul><!-- Segundo listado -->
+                    </nav>
+                </div>
+            </div>
+            <div class="btn-menu-hamburguesa">
+                <i class="fas fa-bars"></i>
+            </div><!-- Botón de menu hamburguesa -->
+        </header>
+
+        <main>
+                 <form class="formulario" action="/home">
+                        <div class="itemform">
+                            <label for="nombre">Nombre y apellido:</label>
+                            <input type="text" id="nombre" name="Nombre completo" required>
+                        </div>
+                     </br>
+
+                     <div class="itemform">
+                        <label for="username">Nombre de usuario:</label>
+                        <input type="text" id="username" name="usuario" required>
+                     </div>
+                     </br>
+                     <div class="itemform">
+                        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+                        <input type="date" id="fechaNacimiento" name="date" required>
+                     </div>
+                     </br>
+                     <div class="itemform">
+                        <label for="direcion">Domicilio:</label>
+                        <input type="text" id="direccion" name="direcion">
+                     </div>
+                    </br>
+                    <h3>Perfil de usuario</h3>
+                    <div class="perfil-itemform">
+                        <div class="itemform">
+                            <label for="comprador">Comprador</label>
+                            <input type="radio" id="comprador" name="medio" value="comprador">
+                        </div>
+                        <div class="itemform">
+                            <label for="vendedor">Vendedor</label>
+                            <input type="radio" id="vendedor" name="medio" value="Vendedor">
+                        </div>
+                    </div>
+
+                    <h3>Categoria de interes</h3>
+                    <div class="categoria-itemform">
+                        <div class="itemform">
+                            <label for="electro">Electro</label>
+                            <input type="checkbox"  name="Categoria" value="electro">
+        
+                        </div>
+                        <div class="itemform">
+                            <label for="moda">Moda</label>
+                            <input type="checkbox" name="Categoria" value="moda">
+        
+                        </div>
+                        <div class="itemform">
+                            <label for="hogar">Hogar</label>
+                            <input type="checkbox" name="Categoria" value="hogar">
+        
+                        </div>
+                        <div class="itemform">
+                            <label for="jugueteria">Jugueteria</label>
+                            <input type="checkbox" name="Categoria" value="jugueteria">
+        
+                        </div>
+                        <div class="itemform">
+                            <label for="modasana">Moda sana</label>
+                            <input type="checkbox" name="Categoria" value="vidasana">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="foto-itemform">
+                        <label for="foto">Carga una foto de perfil</label>
+                        <input type="file" name="foto">
+
+                    </div>
+                    <br>
+                    <div class="passw">
+                        <label for="password">Ingresa nueva contraseña</label>
+                        <input type="password" name="contraseña" placeholder="Nueva contraseña">
+                    </div>
+
+                    <div class="passw">
+                        <label for="confirmar-password">Confirma nueva contraseña</label>
+                        <input type="password" name="contraseña" placeholder="Repite contraseña">
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit"  value="Enviar" >
+                        <input type="reset" value="Borrar">
+                    </div>
+                </form>
+        </main>
+</body>
+</html>
