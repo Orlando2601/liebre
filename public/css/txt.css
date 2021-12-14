@@ -52,6 +52,9 @@ main h2{
     font-family: var(--roboto-font);
     font-size:var(--text-md) ;
     color: var(--gris-oscuro);
+    display: none;
+    transition-property: display;
+    transition-duration: 1000ms
     
 }/* Propiedades del texto descripción en cada articulo dentro de la sección basado en ultima visita*/
 
@@ -133,5 +136,7 @@ footer div .derechos{
     width: 100px;
     height: auto;
     padding: 5px;
+    transition-property: background-color;
+    transition-duration: 500ms;
     
 }

@@ -1,0 +1,19 @@
+.formulario-log .btn-log input:hover{
+    background-color: #0022AA;
+    
+}
+
+.sección article:hover #descripciones{
+    display:inherit;
+    
+}
+
+main article div i:hover{
+    transform: rotate(-90deg);
+}
+main article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+footer i:hover{
+    color: var(--amarillo_logo);
+}
