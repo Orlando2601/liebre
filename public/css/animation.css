@@ -1,19 +1,47 @@
+.formulario-log .btn-log input{
+    transition-property: background-color, color;
+    transition-duration: 2000ms; 
+}
 .formulario-log .btn-log input:hover{
     background-color: #0022AA;
-    
-}
+    color: white;
+    cursor:pointer
+}/* Cambio color btn formulario login */
 
+.sección article #descripciones{
+    display: none;
+    transition-delay: 1000ms;
+    transition-property: display 500ms;
+       
+}
 .sección article:hover #descripciones{
     display:inherit;
     
-}
+}/* Activar descripciòn articulo */
 
-main article div i:hover{
+.sección article div i{
+    transition-property: transform;
+    transition-duration: 800ms;
+
+}
+main article:hover div i{
     transform: rotate(-90deg);
+}/* Giro camiòn */
+
+article{
+    transition-property: box-shadow;
+    transition-duration: 500ms;
 }
 main article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}/* borde sombreado gris */
+
+footer i {
+    transition-property: color;
+    transition-duration: 500ms;
 }
 footer i:hover{
     color: var(--amarillo_logo);
-}
+    
+}/* Cambio color iconos footer */
+

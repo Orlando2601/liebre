@@ -11,11 +11,13 @@
 body{
     background-color:var(--gris-claro);
 }
+
 /* PROPIEDADES HEADER */
+
 header{
     background-color: var(--amarillo_logo);
     padding: 10px;
-}
+}/* color de fondo amarillo header */
 
 .btn-menu-hamburguesa i{
     background-color: var(--celeste);
@@ -26,7 +28,7 @@ header{
 }/* propiedades icono hamburguesa menu */
 .banner img{
     width: 100%;
-}/* propiedades banner */
+}/* propiedades banner imagen */
 
 /* PROPIEDADES MAIN */
 
@@ -80,7 +82,6 @@ article div{
     position: absolute ;
     right: 20px ;
     top: -15px ;
-
 }/* propiedades icono camión */
 
 /* PROPIEDADES FOOTER  */
@@ -97,40 +98,33 @@ footer{
 footer div{
     width: 33%;
     flex-wrap: wrap;
-}
+}/* Cada cuadro contenedor */
 
 footer div p{
     display: block;
-
-
-    }/*Propiedades del texto p dentro de cada sección del footer*/
+    }/*Propiedades del cuadro de texto p dentro de cada sección del footer*/
 
 footer .derechos{
-    padding: 10px;
-    
-}/*Propiedades del texto p*/
+    padding: 10px;   
+}/*Propiedades del cuadro de texto p*/
 
 .pagos i{
     font-size: 50px;
     color:var(--celeste);
-}
+}/* icono pagos */
 .envios i{
     font-size: 60px;
     color:var(--celeste);
-}
+}/* icono envios */
 
 .seguridad i{
     font-size: 60px;
     color:var(--celeste);
-}
+}/* icono seguridad */
 
-footer i {
-    transition-property: color;
-    transition-duration: 500ms;
-}
+
 /* HOJA REGISTER */
 .formulario{
-
 padding: 5px;
 }
 
@@ -138,21 +132,22 @@ padding: 5px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-}
+}/* Contenedor de label e input*/
+
 .formulario .itemform label{
     padding:5px;
-    
-}
+}/* label de cada iten */
 
 .formulario .perfil-itemform{
     display: flex;
     flex-wrap: wrap;
-}
+}/* Contenedor perfil de usuario */
+
 .formulario .categoria-itemform{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
+}/* Contenedor cateria  */
 
 .formulario .itemform input{
     border: solid 1px var(--negro);
@@ -160,24 +155,24 @@ padding: 5px;
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
-}
+}/* inpus de cada campo de relleno */
 
 .formulario .foto-itemform{
     overflow: hidden;
     padding: 5px;
-    
+}/* agregar foto */
 
-}
 .formulario .passw{
     margin: 10px 0px;
-}
+}/* Contenedor contraeña */
+
 .formulario .passw input{
     border: solid 1px var(--negro);
     background-color: var(--blanco);
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
-}
+}/* Input de contraseña */
 
 .formulario .btn{
     margin-top: 20px;
@@ -186,23 +181,21 @@ padding: 5px;
     justify-content: flex-start;
     gap: 20px;
 
-}
+}/* contenedor boton de enviar datos de form de registro */
+.formulario .btn input{
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}/* Input de btn de enviar */
 
+/* HOJA FORMULARIO LOGIN */
 
 .formulario-log {
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.formulario-log .btn-log{
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 20px;
-
-}
+}/* Caja de formulario */
 
 .formulario-log .itemform-log input{
     border: solid 1px var(--negro);
@@ -211,5 +204,19 @@ padding: 5px;
     border-radius: 5px;
     overflow: hidden;
     width: 70vw;
-}
+}/* Input de cajas de texto usuario y contraseña */
 
+.formulario-log .btn-log{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}/* Caja de btn enviar y borrar */
+
+.formulario-log .btn-log input{
+    width: 100px;
+    height: auto;
+    padding: 5px;  
+}
