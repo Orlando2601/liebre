@@ -20,58 +20,56 @@
     display: flex;
     width: 33%;
     align-items: center;
-    }
+    }/* Caja buscador y lupa */
     .barra-busqueda{
     border: solid 1px var(--negro);
     background-color: var(--blanco);
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
-
-    }
+    } /* Espacio para insertar busqueda */
     .barra-busqueda p{
     white-space: nowrap;
-    }
+    }/* Texto barra busqueda, control de exceso segun tamaño */
     .icono-lupa{
     border: solid 1px var(--negro);
     background-color: var(--blanco);
     padding: 2px;
     border-radius: 5px;
     display: inline;
-    } 
+    } /* Lupa de barra de busqueda */
 
     .txt-sin-tarjeta{
     overflow: hidden;
     width: 33%;
-    } 
+    } /* Titulo tecto sin tarjeta de credito */
 
     .medium-header{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-      
-    
-    } 
+    } /* Contenedor del nav */
     .medium-header ul{
         flex-wrap: wrap;
         display: flex;
         margin-left: 10px;
         margin-right: 10px;
         gap: 20px;
-    }
+    }/* Lista nav */
     .medium-header li{
         list-style: none;
         font-style: normal;  
         flex-wrap: wrap;
-         
-    }
+    }/* Item de lista nav */
+
     article{
         width: 45%;
 
-        
-    }
+    }/* Tamaño de cada articulo para tablets */
 
+    
+    
 }/* propiedades tablet*/
 
 

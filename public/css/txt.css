@@ -54,7 +54,6 @@ main h2{
 
 .sección article #descripciones{
     font-family: var(--roboto-font);
-    font-size:var(--text-md) ;
     color: var(--gris-oscuro);
 }/* Propiedades del texto descripción en cada articulo dentro de la sección basado en ultima visita*/
 

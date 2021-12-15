@@ -9,14 +9,15 @@
 }/* Cambio color btn formulario login */
 
 .sección article #descripciones{
-    display: none;
-    transition-delay: 1000ms;
-    transition-property: display 500ms;
-       
+    color: transparent;
+    display: block;
+    transition-property: color, font-size;
+    transition-duration: 500ms;
+    font-size: 0px;
 }
 .sección article:hover #descripciones{
-    display:inherit;
-    
+    color: var(--gris-oscuro); 
+    font-size:var(--text-md) ;
 }/* Activar descripciòn articulo */
 
 .sección article div i{
@@ -45,3 +46,19 @@ footer i:hover{
     
 }/* Cambio color iconos footer */
 
+/* ERRORES */
+
+
+@keyframes error {
+    0% {opacity: 0%}
+    25%{opacity: 25%}
+    50%{opacity: 50%}
+    100%{opacity: 100%}
+
+}
+
+main .error{
+   
+    animation: error 1200ms alternate-reverse infinite linear ;
+    an
+}

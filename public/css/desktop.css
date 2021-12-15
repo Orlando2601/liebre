@@ -1,33 +1,34 @@
 @media (min-width: 769px){
-    
-    .btn-menu-hamburguesa{
-        display: none;
-    } 
-
-    article{
-        width: 22%;
-        transition-property: box-shadow;
-        transition-duration: 500ms;
-    }
-
     .top-header{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         
-    } 
-    
+    } /* top header organizacion */
+
     .logo{
         width: 40%;
         align-self:flex-start;
-    }
+    }/* Logo properties */
     .buscador{
         display: flex;
-        width: 25%;
-        
-        
-    }
+        width: 25%;        
+    }/* Barra de busqueda */
+
+    .btn-menu-hamburguesa{
+        display: none;
+    } /* Icono menu hamburguesa  */
+
+
+    article{
+        width: 22%;
+    }/* tamaño article */
+
+
+    
+
+
     .barra-busqueda{
         border: solid 1px var(--negro);
         background-color: var(--blanco);
