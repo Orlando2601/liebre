@@ -15,15 +15,11 @@
                     <a href="/home"><input type="image" img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre" ></a> 
                 </div><!-- contenedor logo y btn home -->
 
-                <div class="buscador">
-                    <div class="barra-busqueda">
-                        <p>Buscar productos marcas y más</p>   
-                    </div><!-- barrabusqueda -->
-
-                    <div class="icono-lupa">
-                        <i class="fas fa-search"></i>
-                    </div><!-- icono lupa -->
-                </div><!-- contenedor barra de busqueda y lupa -->
+                
+                    <div class="buscador">
+                        <input type="text" placeholder="Buscar productos marcas y más"><button type="submit" class="lupa"><i class="fas fa-search"></i></input>  
+                    </div>
+                
     
                 <div class="txt-sin-tarjeta">
                     <p><i class="fas fa-hand-holding-usd"></i> Compra en cuotas y sin tarjeta de credito</p>
@@ -57,28 +53,30 @@
                 <i class="fas fa-bars"></i>
             </div><!-- Botón de menu hamburguesa -->
         </header><!-- HEADER -->
-
         <main>
+           <div class="titulo-registro">
+            <h2>Ingresa tus datos de registro</h2>
+           </div>
             <form class="formulario" action="/home">
                 <div class="itemform">
-                    <label for="nombre">Nombre y apellido:</label>
-                    <input type="text" id="nombre" name="Nombre completo" required>
+                    <input type="text" id="nombre" name="Nombre completo" placeholder="Nombre y apellido" required>
                 </div>
                 </br>
 
                 <div class="itemform">
-                    <label for="username">Nombre de usuario:</label>
-                    <input type="text" id="username" name="usuario" required>
+                    <input type="text" id="username" name="usuario" placeholder="Nombre de usuario" required>
                 </div>
                 </br>
                 <div class="itemform">
-                    <label for="fechaNacimiento">Fecha de nacimiento:</label>
-                    <input type="date" id="fechaNacimiento" name="date" required>
+                    <input type="text" id="correo" name="correo" placeholder="Ingresa correo" required>
                 </div>
                 </br>
                 <div class="itemform">
-                    <label for="direcion">Domicilio:</label>
-                    <input type="text" id="direccion" name="direcion">
+                    <input class="fecha" type="date" id="fechaNacimiento" name="date" placeholder="Fecha de nacimiento" required>
+                </div>
+                </br>
+                <div class="itemform">
+                    <input type="text" id="direccion" placeholder="Dirección de residencia" name="direcion">
                 </div>
                 </br>
                 <h3>Perfil de usuario</h3>
@@ -118,16 +116,14 @@
                 </div>
                 <br>
                 <div class="foto-itemform">
-                    <label for="foto">Carga una foto de perfil</label>
+                    <label for="foto">Carga una foto de perfil </label>
                     <input type="file" name="foto">
                 </div>
                 <br>
                 <div class="passw">
-                    <label for="password">Ingresa nueva contraseña</label>
                     <input type="password" name="contraseña" placeholder="Nueva contraseña">
                 </div>
                 <div class="passw">
-                    <label for="confirmar-password">Confirma nueva contraseña</label>
                     <input type="password" name="contraseña" placeholder="Repite contraseña">
                 </div>
                 <div class="btn">

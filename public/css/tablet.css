@@ -21,23 +21,8 @@
     width: 33%;
     align-items: center;
     }/* Caja buscador y lupa */
-    .barra-busqueda{
-    border: solid 1px var(--negro);
-    background-color: var(--blanco);
-    padding: 2px;
-    border-radius: 5px;
-    overflow: hidden;
-    } /* Espacio para insertar busqueda */
-    .barra-busqueda p{
-    white-space: nowrap;
-    }/* Texto barra busqueda, control de exceso segun tamaño */
-    .icono-lupa{
-    border: solid 1px var(--negro);
-    background-color: var(--blanco);
-    padding: 2px;
-    border-radius: 5px;
-    display: inline;
-    } /* Lupa de barra de busqueda */
+    
+  
 
     .txt-sin-tarjeta{
     overflow: hidden;
@@ -48,7 +33,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     } /* Contenedor del nav */
     .medium-header ul{
         flex-wrap: wrap;
@@ -68,7 +53,23 @@
 
     }/* Tamaño de cada articulo para tablets */
 
+    footer{
+        padding: 10px;
+        text-align: center;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }/*Propiedades del contenedor footer*/
+    footer div{
+        width: 33%;
+        flex-wrap: wrap;
+    }/* Cada cuadro contenedor */
     
+    footer div p{
+        display: block;
+        }/*Propiedades del cuadro de texto p dentro de cada sección del footer*/
     
 }/* propiedades tablet*/
 

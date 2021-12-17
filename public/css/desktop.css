@@ -16,6 +16,7 @@
         width: 25%;        
     }/* Barra de busqueda */
 
+
     .btn-menu-hamburguesa{
         display: none;
     } /* Icono menu hamburguesa  */
@@ -29,24 +30,7 @@
     
 
 
-    .barra-busqueda{
-        border: solid 1px var(--negro);
-        background-color: var(--blanco);
-        padding: 2px;
-        border-radius: 5px;
-        overflow: hidden;
-    
-        }
-    .barra-busqueda p{
-        white-space: nowrap;
-    }
-    .icono-lupa{
-        border: solid 1px var(--negro);
-        background-color: var(--blanco);
-        padding: 2px;
-        border-radius: 5px;
-        display: inline;
-    } 
+
     .medium-header{
         display: flex;
         flex-wrap: wrap;
@@ -63,7 +47,23 @@
         gap: 20px;
     }
 
+    footer{
+        padding: 10px;
+        text-align: center;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }/*Propiedades del contenedor footer*/
+    footer div{
+        width: 33%;
+        flex-wrap: wrap;
+    }/* Cada cuadro contenedor */
     
+    footer div p{
+        display: block;
+        }/*Propiedades del cuadro de texto p dentro de cada sección del footer*/
 }/* propiedades desktop */
 
 @media (min-width: 1200px){

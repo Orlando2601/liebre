@@ -21,22 +21,21 @@
     .buscador{
     display: flex;
     width: 50%;
+    align-items: center;
     }
     .barra-busqueda{
-    border: solid 1px var(--negro);
-    background-color: var(--blanco);
+/*     border: solid 2px var(--negro);
+    background-color: var(--blanco); */
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
 
     }
-    .barra-busqueda p{
-    white-space: nowrap;
-    }
+
     .icono-lupa{
-    border: solid 1px var(--negro);
+  /*   border: solid 1px var(--negro);
     background-color: var(--blanco);
-    padding: 2px;
+    padding: 2px; */
     border-radius: 5px;
     display: inline;
     }
@@ -48,6 +47,14 @@
     }
     article{
     width: 100%;
+    }
+    
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer div{
+        width: 100%;
     }
 
 }/* propiedades mobile */

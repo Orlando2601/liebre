@@ -19,6 +19,9 @@ header{
     padding: 10px;
 }/* color de fondo amarillo header */
 
+.buscador input {
+    width: 100%;
+}
 .btn-menu-hamburguesa i{
     background-color: var(--celeste);
     padding:7px;
@@ -86,23 +89,7 @@ article div{
 
 /* PROPIEDADES FOOTER  */
 
-footer{
-    padding: 10px;
-    text-align: center;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: center;
-}/*Propiedades del contenedor footer*/
-footer div{
-    width: 33%;
-    flex-wrap: wrap;
-}/* Cada cuadro contenedor */
 
-footer div p{
-    display: block;
-    }/*Propiedades del cuadro de texto p dentro de cada sección del footer*/
 
 footer .derechos{
     padding: 10px;   
@@ -126,6 +113,9 @@ footer .derechos{
 /* HOJA REGISTER */
 .formulario{
 padding: 5px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
 
 .formulario .itemform{
@@ -134,6 +124,11 @@ padding: 5px;
     flex-wrap: wrap;
 }/* Contenedor de label e input*/
 
+
+
+.formulario .fecha{
+    color:var(--gris-oscuro)
+}
 .formulario .itemform label{
     padding:5px;
 }/* label de cada iten */
@@ -180,12 +175,16 @@ padding: 5px;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
+    
 
 }/* contenedor boton de enviar datos de form de registro */
 .formulario .btn input{
     width: 100px;
     height: auto;
     padding: 5px;
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: var(--blanco);
 }/* Input de btn de enviar */
 
 /* HOJA FORMULARIO LOGIN */
@@ -218,7 +217,10 @@ padding: 5px;
 .formulario-log .btn-log input{
     width: 100px;
     height: auto;
-    padding: 5px;  
+    padding: 5px;
+    background-color: var(--celeste);
+    border-radius: 5px;
+    color: var(--blanco);
 }
 
 /* HOJA OFERTAS */
@@ -230,4 +232,5 @@ main .error{
     font-size: 50vw;
     color: var(--azul_logo)
 }
+
 
