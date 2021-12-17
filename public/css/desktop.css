@@ -13,7 +13,11 @@
     }/* Logo properties */
     .buscador{
         display: flex;
-        width: 25%;        
+        width: 35%;        
+    }/* Barra de busqueda */
+    .buscador .buscadorin{
+        display: flex;
+        width: 100%;        
     }/* Barra de busqueda */
 
 

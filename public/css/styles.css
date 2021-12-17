@@ -22,6 +22,10 @@ header{
 .buscador input {
     width: 100%;
 }
+.buscador .buscadorin{
+    display: flex;
+
+}
 .btn-menu-hamburguesa i{
     background-color: var(--celeste);
     padding:7px;
