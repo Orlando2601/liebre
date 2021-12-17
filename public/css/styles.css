@@ -42,6 +42,7 @@ header{
 main{
    margin: 0 auto;
     width: 90%;
+    margin-bottom: 50px;
 }/* centrado del contenido del main */
 
 main h2{
@@ -100,7 +101,7 @@ footer .derechos{
 }/*Propiedades del cuadro de texto p*/
 
 .pagos i{
-    font-size: 50px;
+    font-size: 60px;
     color:var(--celeste);
 }/* icono pagos */
 .envios i{
@@ -198,6 +199,7 @@ align-items: flex-start;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }/* Caja de formulario */
 
 .formulario-log .itemform-log input{
@@ -206,7 +208,6 @@ align-items: flex-start;
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
-    width: 70vw;
 }/* Input de cajas de texto usuario y contraseña */
 
 .formulario-log .btn-log{

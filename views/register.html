@@ -57,29 +57,29 @@
             </div><!-- Botón de menu hamburguesa -->
         </header><!-- HEADER -->
         <main>
-           <div class="titulo-registro">
-            <h2>Ingresa tus datos de registro</h2>
-           </div>
+            <div class="titulo-registro">
+                <h2>Ingresa tus datos de registro</h2>
+            </div>
             <form class="formulario" action="/home">
                 <div class="itemform">
-                    <input type="text" id="nombre" name="Nombre completo" placeholder="Nombre y apellido" required>
+                    <input type="text" id="nombre" name="Nombre completo" placeholder="Nombre y apellido" title="Ingresa nombre y apellido" required>
                 </div>
                 </br>
 
                 <div class="itemform">
-                    <input type="text" id="username" name="usuario" placeholder="Nombre de usuario" required>
+                    <input type="text" id="username" name="usuario" placeholder="Nombre de usuario" title="Registra un nombre de usuario" required>
                 </div>
                 </br>
                 <div class="itemform">
-                    <input type="email" id="correo" name="correo" placeholder="Ingresa correo" required>
+                    <input type="email" id="correo" name="correo" placeholder="Ingresa correo" title="Ingresa correo electrónico Gmail, Hotmail, Yahoo, Outlook" pattern="(.+@gmail.+)|(.+@hotmail.+)|(.+@outlook.+)|(.+@yahoo.+)"  required>
                 </div>
                 </br>
                 <div class="itemform">
-                    <input class="fecha" type="date" id="fechaNacimiento" name="date" placeholder="Fecha de nacimiento" required>
+                    <input class="fecha" type="date" id="fechaNacimiento" name="date" placeholder="Fecha de nacimiento" title="Ingresa tu fecha de nacimiento" required>
                 </div>
                 </br>
                 <div class="itemform">
-                    <input type="text" id="direccion" placeholder="Dirección de residencia" name="direcion">
+                    <input type="text" id="direccion" placeholder="Dirección de residencia" name="direcion" title="Ingresa dirección de residencia" required>
                 </div>
                 </br>
                 <h3>Perfil de usuario</h3>
@@ -120,21 +120,21 @@
                 <br>
                 <div class="foto-itemform">
                     <label for="foto">Carga una foto de perfil </label>
-                    <input type="file" name="foto">
+                    <input type="file" name="foto" title="Carga una foto desde tu ordenador" accept=".jpg,.jpeg">
                 </div>
                 <br>
                 <div class="passw">
-                    <input type="password" name="contraseña" placeholder="Nueva contraseña">
+                    <input type="password" name="contraseña" placeholder="Nueva contraseña" minlength="8" maxlength="12" title="Ingresa contraseña registrada" required>
                 </div>
                 <div class="passw">
-                    <input type="password" name="contraseña" placeholder="Repite contraseña">
+                    <input type="password" name="contraseña" placeholder="Repite contraseña" minlength="8" maxlength="12" title="Ingresa nuevamente contraseña" required>
                 </div>
                 <div class="btn">
                     <input type="submit"  value="Enviar" >
                     <input type="reset" value="Borrar">
                 </div>
             </form>
-        </main>
+        </main><!-- MAIN -->
         <footer>
             <div class="pagos">
                 <i class="fas fa-credit-card"></i>
