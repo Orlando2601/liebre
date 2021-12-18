@@ -86,6 +86,17 @@ footer div .derechos{
     color: var(--negro);
 }/* txt item de formularios */
 
+
+.formulario  label{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro); 
+}
+.formulario .itemform label{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro); 
+}
 .formulario h3{
     font-family: var(--roboto-font);
     font-size: var(--text-lg);  

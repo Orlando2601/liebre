@@ -129,6 +129,9 @@ align-items: flex-start;
     
 }/* Contenedor de label e input*/
 
+.formulario label{
+    padding:5px;
+}/* label de cada iten */
 
 .formulario .itemform label{
     padding:5px;
