@@ -2,9 +2,13 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const publicPath = path.resolve(__dirname, './public');
-const port = 3000;
+/* const port = 3000; */
 app.use(express.static(publicPath));
-app.listen(port, ()=> {console.log('Servidor corriendo en puerto ' + port)});
+/* app.listen(port, ()=> {console.log('Servidor corriendo en puerto ' + port)}); */
+const PORT = process.env.PORT || 3000; /* Configuracion heroku */
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en el puerto ${ PORT }`)
+});/* Configuracion heroku */
 app.get('/home', (req, res)=>{ res.sendFile(path.join(__dirname, '/views/index.html'))});
 app.get('/register', (req, res)=>{ res.sendFile(path.join(__dirname, '/views/register.html'))});
 app.get('/login', (req, res)=>{ res.sendFile(path.join(__dirname, '/views/login.html'))});
