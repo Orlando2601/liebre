@@ -1,3 +1,7 @@
+header .buscador .buscadorin button{
+    cursor:pointer;
+}/* manito en lupa */
+
 .formulario-log .btn-log input{
     transition-property: background-color, color;
     transition-duration: 500ms; 
@@ -65,10 +69,10 @@ footer i:hover{
     50%{opacity: 50%}
     100%{opacity: 100%}
 
-}
+}/* animacion error triangulo */
 
 main .error{
    
     animation: error 1200ms alternate-reverse infinite linear ;
     
-}
+}/* animacion triangulo error */

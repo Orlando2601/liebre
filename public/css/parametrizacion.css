@@ -2,7 +2,8 @@
     margin: 0;  /*Definimos un margen de 0*/
     padding: 0;/* Definimos un padding de 0 */
     box-sizing: border-box; /*con esta propiedad definimos que el margin y el padding sean incluidos dentro del tamaño de las cajas*/
-} /* Propiedades de Cajas */
+    overflow-x;:hidden
+} /* Propiedades generales de Cajas */
 
 html{
     font-size: 62.5%;

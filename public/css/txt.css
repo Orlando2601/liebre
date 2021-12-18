@@ -1,16 +1,4 @@
-/* PROPIEDADES HEADER */
-.barra-busqueda p{
-    font-size: var(--text-md);
-    color: var(--gris-oscuro);
-    font-family: var(--roboto-font);
-    
-}/* texto barra de busqueda */
-
-.icono-lupa{
-    font-size: var(--text-md);
-    color: var(--gris-oscuro);
- 
-}/* propiedades icono lupa */
+/* HEADER */
 
 .txt-sin-tarjeta p{
     font-size: var(--text-md);
@@ -31,11 +19,10 @@
     text-decoration: none;
     font-family: var(--roboto-font);
     font-size: var(--text-sm);
-}/* propiedades de texto de listas */
+}/* propiedades de texto de listas nav*/
 
 /* PROPIEDADES MAIN */
 main h2{
-
     font-family: var(--roboto-font);
     font-size: var(--title-md);  
     color: var(--gris-oscuro); 
@@ -51,7 +38,6 @@ main h2{
     color: var(--verde);
     
 }/*Propiedades del texto descuento en cada articulo de la seccion basado en ultima visita*/
-
 .sección article #descripciones{
     font-family: var(--roboto-font);
     color: var(--gris-oscuro);
@@ -91,44 +77,83 @@ footer div .derechos{
 
 }/*Propiedades del texto p*/
 
-/* HOJA LOGGIN */
-.formulario .itemform{
+
+
+/* HOJA REGISTRO */
+.formulario .itemform input{
     font-family: var(--roboto-font);
     font-size: var(--text-sm);
     color: var(--negro);
-}
+}/* txt item de formularios */
+
 .formulario h3{
     font-family: var(--roboto-font);
-    font-size: var(--text-lg);
+    font-size: var(--text-lg);  
+    color: var(--gris-oscuro); 
+}/* titulos formulario registro */
+
+.formulario .foto-itemform label{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
     color: var(--negro); 
 }
-
 .formulario .foto-itemform{
     font-family: var(--roboto-font);
     font-size: var(--text-sm);
     color: var(--negro);
-}
+}/* txt form cargar imagen */
 
+.formulario .itemform-fecha input{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--gris-oscuro); 
+}/* txt fecha inicial */
+.formulario .perfil-itemform{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro);
+}/* radiobutton */
+
+.formulario .categoria-itemform{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro); 
+}/* checkbox */
 .formulario .passw{
     font-family: var(--roboto-font);
     font-size: var(--text-sm);
     color: var(--negro);
-}
+}/* form contraseña */
+
 
 .formulario .btn input{
     font-family: var(--roboto-font);
-    font-size: var(--text-lg);
+    font-size: var(--text-md);
     color: var(--negro);
-}
+}/* form botones */
 
-.formulario .passw ::placeholder{
+.formulario .itemform input::placeholder{
     font-family: var(--roboto-font);
     font-size: 12px;
-}
+}/* texto inicial inputs */
+.formulario .passw input::placeholder{
+    font-family: var(--roboto-font);
+    font-size: 12px;
+}/* texto inicial contraseñas */
 
+/* HOJA LOGIN */
+.formulario-log .itemform-log input::placeholder{
+    font-family: var(--roboto-font);
+    font-size: 12px;
+}/* texto inicial form login */
+
+.formulario-log .itemform-log input{
+    font-family: var(--roboto-font);
+    font-size: var(--text-sm);
+    color: var(--negro);
+}/* texto login form */
 .formulario-log .btn-log input{
     font-family: var(--roboto-font);
-    font-size: var(--text-lg);
+    font-size: var(--text-md);
     color: var(--negro);
-    
-}
+}/* texto botones login */

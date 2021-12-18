@@ -1,61 +1,49 @@
 /* RESOLUCION MOBILE 360PX MAXIMO */
 @media (max-width: 360px){
-    .medium-header{
-       display: none;
-    }/*  */
+    /* HEADER */
     .logo{
-    width: 50%;
-    align-self:flex-start;
-    }
+        width: 50%;
+        align-self:flex-start;
+    }/* tamaño logo */
     .top-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-   
-    } 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    } /* propiedades header sup */
+    .buscador{
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }/* buscador */
     .txt-sin-tarjeta{
         overflow: hidden;
-    }
-    .buscador{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    }
-    .barra-busqueda{
-/*     border: solid 2px var(--negro);
-    background-color: var(--blanco); */
-    padding: 2px;
-    border-radius: 5px;
-    overflow: hidden;
+    }/* texto sin tarjeta */
 
-    }
-
-    .icono-lupa{
-  /*   border: solid 1px var(--negro);
-    background-color: var(--blanco);
-    padding: 2px; */
-    border-radius: 5px;
-    display: inline;
-    }
+    .medium-header{
+        display: none;
+     }/* ocultar nav */
     .btn-menu-hamburguesa{
     display: flex;
     justify-content:center;
     padding-top: 10px;
-    
-    }
+    }/* mostrar menu haburguesa */
+
+    /* MAIN */
     article{
     width: 100%;
-    }
-    
+    }/* propiedades articulos */
+
+    /* FOOOTER */
     footer {
         flex-direction: column;
         text-align: center;
-    }
+    }/* organizacion contenedor footer */
     footer div{
         width: 100%;
-    }
+    }/* cada caja footer */
+
 
 }/* propiedades mobile */
 

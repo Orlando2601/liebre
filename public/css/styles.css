@@ -6,7 +6,7 @@
 @import url(/css/txt.css);
 @import url(/css/animation.css);
 
-
+/* GENERALES */
 
 body{
     background-color:var(--gris-claro);
@@ -19,13 +19,13 @@ header{
     padding: 10px;
 }/* color de fondo amarillo header */
 
-.buscador input {
-    width: 100%;
-}
 .buscador .buscadorin{
     display: flex;
+}/* Barra bsuqueda */
+.buscador .buscadorin input {
+    width: 100%;
+}/* barra busqueda entrada */
 
-}
 .btn-menu-hamburguesa i{
     background-color: var(--celeste);
     padding:7px;
@@ -59,11 +59,11 @@ main h2{
 article{
     padding: 10px;
     margin:5px;
-}
+}/* Contenedor de cada articulo */
 article img{
     width: 100%; 
     height:auto   
-}/* imagen ocupando 100% de la caja */
+}/* imagen ocupando 100% de la caja anterior */
 
 article div{
     background-color: var(--blanco);
@@ -94,8 +94,6 @@ article div{
 
 /* PROPIEDADES FOOTER  */
 
-
-
 footer .derechos{
     padding: 10px;   
 }/*Propiedades del cuadro de texto p*/
@@ -104,6 +102,7 @@ footer .derechos{
     font-size: 60px;
     color:var(--celeste);
 }/* icono pagos */
+
 .envios i{
     font-size: 60px;
     color:var(--celeste);
@@ -127,13 +126,10 @@ align-items: flex-start;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    
 }/* Contenedor de label e input*/
 
 
-
-.formulario .fecha{
-    color:var(--gris-oscuro)
-}
 .formulario .itemform label{
     padding:5px;
 }/* label de cada iten */
@@ -154,16 +150,41 @@ align-items: flex-start;
     background-color: var(--blanco);
     padding: 2px;
     border-radius: 5px;
+    width: 100%;
     overflow: hidden;
-}/* inpus de cada campo de relleno */
+}/* input de cada campo de relleno */
 
-.formulario .foto-itemform{
+.formulario .itemform-fecha{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 164px;
+}/* caja fecha */
+.formulario .itemform-fecha input{
+    border: solid 1px var(--negro);
+    background-color: var(--blanco);
+    padding: 2px;
+    border-radius: 5px;
+    width: 100%;
     overflow: hidden;
-    padding: 5px;
-}/* agregar foto */
+}/* caja in fecha */
+.formulario .foto-itemform label{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}/* label cargar foto */
+.formulario .foto-itemform{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    
+}/* caja agregar foto */
+
 
 .formulario .passw{
     margin: 10px 0px;
+    width: 100%;
 }/* Contenedor contraeña */
 
 .formulario .passw input{
@@ -172,6 +193,8 @@ align-items: flex-start;
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
+    width: 100%;
+    max-width: 164px ;
 }/* Input de contraseña */
 
 .formulario .btn{
@@ -180,9 +203,7 @@ align-items: flex-start;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
-    
-
-}/* contenedor boton de enviar datos de form de registro */
+}/* contenedor boton de enviar datos y reset de form de registro */
 .formulario .btn input{
     width: 100px;
     height: auto;
@@ -190,7 +211,7 @@ align-items: flex-start;
     background-color: var(--celeste);
     border-radius: 5px;
     color: var(--blanco);
-}/* Input de btn de enviar */
+}/* Input de btn de enviar y reset */
 
 /* HOJA FORMULARIO LOGIN */
 
@@ -200,7 +221,16 @@ align-items: flex-start;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
-}/* Caja de formulario */
+}/* Caja de formulario login*/
+
+.formulario-log .itemform-log{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}/* Contenedor  input*/
 
 .formulario-log .itemform-log input{
     border: solid 1px var(--negro);
@@ -208,7 +238,7 @@ align-items: flex-start;
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
-}/* Input de cajas de texto usuario y contraseña */
+}/* Input de cajas de texto usuario y contraseña login */
 
 .formulario-log .btn-log{
     margin-top: 20px;
@@ -226,16 +256,16 @@ align-items: flex-start;
     background-color: var(--celeste);
     border-radius: 5px;
     color: var(--blanco);
-}
+}/* btn enviar y borrar */
 
 /* HOJA OFERTAS */
 .main2{
     display: flex;
     justify-content: center;
-}
+}/* main hojas aun en construccion */
 main .error{
     font-size: 50vw;
     color: var(--azul_logo)
-}
+}/* icon pagina error */
 
 
